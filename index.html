@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="figma.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;400;600&family=Outfit:wght@100;200;400&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper" role="main">
+        <section class="theSignupPageDesign" role="region">
+            <div class="first-division-brand-logo">
+                 <img src="/asset/Logo.png" class="brand-logo">
+
+                  <h2>For Individuals</h2>
+
+                  <div class="brand-content">
+                     <p>Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+                  </div>                
+            </div>
+
+         <div class="second-division-brand-logo" role="region">
+                <form class=""  action="/signup" method="post">
+                    <fieldset>
+                         <div class="first-container">
+
+                           <div class="first-name-container">
+                              <label for="firstname" name="firstname"> First Name </label>
+                              <input type="text" placeholder="Tolu" name="firstname" required>
+                           </div>   
+                          
+                            <div class="last-name-container">
+                            <label for="lastname" name="lastname">Last name </label>
+                            <input type="text" name="lastname" required>
+                           </div>   
+
+                          </div>
+
+                          <div class="second-container">
+                             <div class="seccond-input-container">
+                               <label for="firstname" name="firstname">Gender</label>
+                                <select name="gender" id="gender">
+                                    <option>Select</option>
+                                    <option value="1">Male</option>
+                                    <option value="2">Female</option>
+                                </select>
+                              </div>   
+                           
+                             <div class="last-name-container">
+                             <label for="lastname" name="lastname">Date Of Birth</label>
+                             <input type="date"  placeholder="select here" required>
+                            </div>   
+ 
+                           </div>
+                    </fieldset>
+                </form> 
+                </div>
+        </section>
+    </div>
+</body>
+</html>
